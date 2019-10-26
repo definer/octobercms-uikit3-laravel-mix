@@ -25,9 +25,6 @@ npm run watch-poll
 npm run hot
 npm run prod
 npm run production
-npm run imagemin
-npm run lint:css
-npm run lint:js
 ```
 
 ## Customizing UIkit
