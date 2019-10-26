@@ -10,6 +10,11 @@ or with the following command-line instructions inside *project root*:
 php artisan theme:install definer.ui3kitmix ui3kitmix
 php artisan theme:use ui3kitmix
 ```
+Install [NodeJS and Node Package Manager](https://nodejs.org/en/).
+Run the following command-line instructions inside *theme root*:
+```bash
+npm i
+```
 
 ## Webpack command list
 ```bash
