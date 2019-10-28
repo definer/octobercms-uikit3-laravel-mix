@@ -22,12 +22,12 @@ import Tooltip from 'uikit/dist/js/components/tooltip';
 import Upload from 'uikit/dist/js/components/upload';
 
 UIkit.use(Icons);
-UIkit.component('countdown', Countdown);
-UIkit.component('filter', Filter);
 UIkit.component('lightbox', Lightbox);
 UIkit.component('lightboxpanel', LightboxPanel);
-UIkit.component('notification', Notification);
+UIkit.component('countdown', Countdown);
+UIkit.component('filter', Filter);
 UIkit.component('parallax', Parallax);
+UIkit.component('notification', Notification);
 UIkit.component('slider', Slider);
 UIkit.component('sliderparallax', SliderParallax);
 UIkit.component('slideshow', Slideshow);
