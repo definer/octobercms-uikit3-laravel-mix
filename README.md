@@ -4,14 +4,14 @@ Starter development template for building UIkit v3 themed OctoberCMS sites on La
 ## Installation
 Add the theme to existing project while logged into OctoberCMS account online,
 or interactively by searching it inside Settings/System/Updates/Themes in backend,
-or with the following command-line instructions inside *project root*:
+or with the following command-line instructions inside **project root**:
 
 ```bash
 php artisan theme:install definer.ui3kitmix ui3kitmix
 php artisan theme:use ui3kitmix
 ```
 Install [NodeJS and Node Package Manager](https://nodejs.org/en/).
-Run the following command-line instructions inside *theme root*:
+Run the following command-line instructions inside **theme root**:
 ```bash
 npm i
 ```
