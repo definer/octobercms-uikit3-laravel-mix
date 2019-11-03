@@ -15,6 +15,8 @@ function onInit()
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=1">
     <link rel="shortcut icon" href="{{ 'assets/images/uikit/icon.png'|theme }}">
+    <link rel="preload" href="{{ path_css }}" as="style">
+    <link rel="preload" href="{{ path_js }}" as="script">
     <link href="{{ path_css }}" rel="stylesheet">
   </head>
 
@@ -22,7 +24,7 @@ function onInit()
     {% page %}
   </body>
 
-  <script src="{{ path_js }}"></script>
+  <script src="{{ path_js }}" defer></script>
 
 </html>
 {% endspaceless %}
